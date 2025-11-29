@@ -348,12 +348,11 @@ with tab3:
 
 
         st.subheader("Mapa de clusters")
-        st.markdown("""
-        **Explicación de resultados del mapa:**
-        * 🔴 Cluster 1 de riesgo alto: Son equipos con alto costo de mantenimiento y también con mucho tiempo de antigüedad, por lo tanto son candidatos a reemplazo inmediato.
-        * 🟢 Cluster 2 de estables: Aquí hay equipos con bajo costo con poca antigüedad y pocos mantenimientos.
-        * 🔵 Cluster 3 de equipos con anomalías por fallas prematuras: Salen equipos de poca antigüedad pero con muchos mantenimientos y costosos, que se asume que eequieren revisión.
-        """)
+        st.markdown("""**Explicación de resultados del mapa:**""")
+        st.markdown("🔴 Cluster 1 de riesgo alto: Son equipos con alto costo de mantenimiento y también con mucho tiempo de antigüedad, por lo tanto son candidatos a reemplazo inmediato.")
+        st.markdown("🟢 Cluster 2 de estables: Aquí hay equipos con bajo costo con poca antigüedad y pocos mantenimientos.")
+        st.markdown("🔵 Cluster 3 de equipos con anomalías por fallas prematuras: Salen equipos de poca antigüedad pero con muchos mantenimientos y costosos, que se asume que eequieren revisión.")
+        
 
         col_c1, col_c2 = st.columns([1, 3])
         
