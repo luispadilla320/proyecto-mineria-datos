@@ -102,7 +102,7 @@ with tab1:
         with iicol2:
             st.image("https://i.imgur.com/CtmxYrB.png",caption="Técnicas más usadas en minería")
 with tab2:
-    st.header("Almacén de datos y generacion la vista minable")
+    st.header("Almacén de datos y generacion de la vista minable")
     
     st.markdown("""
     Contexto:
