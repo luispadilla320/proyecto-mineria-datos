@@ -29,7 +29,7 @@ with hcol2:
         st.image("https://upload.wikimedia.org/wikipedia/commons/6/68/Escudo_CUCEI.svg", width=120)
          
 
-# Creamos dos pestañas para separar teoría de práctica
+# Creamos pestañas
 tab1, tab2, tab3, tab4 = st.tabs(["**Definiciones sobre minería de datos**","**Vista minable**","**Dashboard de resultados: Predicción**", "**Dashboard de resultados: K-means**"])
 
 
@@ -56,7 +56,7 @@ with tab1:
         st.markdown("**Proceso de KDD y minería de los datos**")
         st.markdown("""
         **¿Qué es KDD?**
-        KDD (*Knowledge Discovery in Databases*) es el proceso **completo** de extracción de conocimiento útil, válido, novedoso y comprensible a partir de grandes volúmenes de datos. La "Minería de Datos" es solo una etapa dentro de este proceso global.
+        KDD (*Knowledge Discovery in Databases*) es el proceso completo de extracción de conocimiento útil, válido, novedoso y comprensible a partir de grandes volúmenes de datos. La minería de datos es solo una etapa dentro de este proceso global.
         
         **Etapas del proceso KDD:**
         1.  **Selección:** Identificar y seleccionar el conjunto de datos objetivo.
@@ -349,11 +349,6 @@ with tab4:
 
 
         st.subheader("Mapa de clusters")
-        
-        # Necesitamos importar plotly.express. 
-        # Si te marca error, agrégalo a tus imports al inicio: import plotly.express as px
-        import plotly.express as px 
-        
         st.markdown("""
         **Explicación de resultados del mapa:**
         * 🔴 Cluster 1 de riesgo alto: Son equipos con alto costo de mantenimiento y también con mucho tiempo de antigüedad, por lo tanto son candidatos a reemplazo inmediato.
@@ -366,10 +361,9 @@ with tab4:
         with col_c1:
             st.markdown("##### ⚙️ Ejes")
             
-            # 1. LIMPIEZA DE DATOS: Solo dejamos las variables que importan para mantenimiento
             opciones_clave = ['Antiguedad_Anios', 'Costo_Total_Mantenimiento', 'Total_Mantenimientos']
             
-            # Verificamos que existan en el CSV
+            
             ejes_disponibles = [c for c in opciones_clave if c in df_cluster.columns]
             
             x_axis = st.selectbox("Eje X:", ejes_disponibles, index=0) # Por defecto: Antiguedad
@@ -378,31 +372,30 @@ with tab4:
             filtro_tipo = st.multiselect("Filtrar por Tipo:", df_cluster['tipo_hardware'].unique())
 
         with col_c2:
-            # Filtramos datos
+            
             data_to_plot = df_cluster.copy()
             if filtro_tipo:
                 data_to_plot = data_to_plot[data_to_plot['tipo_hardware'].isin(filtro_tipo)]
             
-            # 2. GRÁFICO CON TOOLTIP DETALLADO (PLOTLY)
             if x_axis and y_axis:
                 fig = px.scatter(
                     data_to_plot,
                     x=x_axis,
                     y=y_axis,
-                    color='Cluster',          # Colores por grupo
-                    size='Silhouette',        # Tamaño por certeza
+                    color='Cluster',          
+                    size='Silhouette',        
                     
-                    # AQUÍ ESTÁ LA MAGIA: Qué datos mostrar al pasar el mouse
+                    
                     hover_data=['tipo_hardware', 'marca', 'modelo', 'estado'], 
                     
                     title=f"Distribución: {x_axis} vs {y_axis}",
                     color_discrete_sequence=px.colors.qualitative.Set1 # Colores bonitos y distintos
                 )
                 
-                # Ajuste visual para que se vea limpio
+               
                 fig.update_layout(xaxis_title=x_axis, yaxis_title=y_axis)
                 
-                # Mostramos la gráfica
+               
                 st.plotly_chart(fig, use_container_width=True)
             else:
                 st.warning("No se encontraron las columnas necesarias para graficar.")
@@ -411,7 +404,8 @@ with tab4:
         
 
     except FileNotFoundError:
-        st.error("⚠️ No encuentro el archivo 'clusters.csv'. Recuerda exportarlo desde Orange.")
+        st.error("No encuentro el archivo 'clusters.csv'. Recuerda exportarlo desde Orange.")
     except Exception as e:
         st.error(f"Error cargando datos: {e}")
+
 
