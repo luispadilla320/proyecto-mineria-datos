@@ -356,7 +356,7 @@ with tab3:
         col_c1, col_c2 = st.columns([1, 3])
         
         with col_c1:
-            st.markdown("##### ⚙️ Ejes")
+            st.markdown("##### Ejes:")
             
             opciones_clave = ['Antiguedad_Anios', 'Costo_Total_Mantenimiento', 'Total_Mantenimientos']
             
