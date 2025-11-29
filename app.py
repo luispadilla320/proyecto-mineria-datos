@@ -30,7 +30,7 @@ with hcol2:
          
 
 # Creamos pestañas
-tab1, tab2, tab3, tab4 = st.tabs(["**Definiciones sobre minería de datos**","**Vista minable**","**Dashboard de resultados: Predicción**", "**Dashboard de resultados: K-means**"])
+tab1, tab2, tab3= st.tabs(["**Definiciones sobre minería de datos**","**Vista minable**","**Dashboard de resultados**"])
 
 
 with tab1:
@@ -161,8 +161,8 @@ with tab2:
 
     st.divider()
 
-    st.subheader("4. Resultado: Vista Minable Final (.csv)")
-    st.markdown("Archivo generado con la estructura final para el análisis.")
+    st.subheader("Vista minable final")
+    st.markdown("Archivo csv generado con la estructura para la minería de los datos.")
 
     try:
         
@@ -172,7 +172,7 @@ with tab2:
         
         csv_export = df_final_vista.to_csv(index=False).encode('utf-8')
         st.download_button(
-            label="Descargar Archivo (.csv)",
+            label="Descargar archivo (.csv)",
             data=csv_export,
             file_name="vista_minable.csv",
             mime="text/csv"
@@ -309,7 +309,10 @@ with tab3:
 
     except Exception as e:
         st.error(f"Error en el explorador: {e}")
-with tab4:
+
+        st.divider()
+
+#with tab4:
 
     st.header("Segmentación de equipos con agrupamientos de clustering")
     
