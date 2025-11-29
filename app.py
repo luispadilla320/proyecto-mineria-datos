@@ -147,13 +147,13 @@ with tab2:
         "Campo": ["hardware_id", "tipo, marca, modelo", "estado", "Antiguedad_Anios", "Total_Mantenimientos", "Costo_Total_Mantenimiento", "Total_Reemplazos_Mayor"],
         "Origen": ["Base de datos", "Base de datos", "Objetivo", "Calculado (SQL)", "Agregado (Count)", "Agregado (Sum)", "Agregado"],
         "Tipo": [
-            "Identificador único.",
-            "Variables categóricas para segmentar.",
-            "Variable a predecir (Activo/Inactivo).",
+            "Identificador.",
+            "Variables de categoría para segmentar.",
+            "Variable a predecir (activo o inactivo).",
             "Indicador de obsolescencia.",
             "Indica frecuencia de fallas.",
             "Mide el impacto del costo.",
-            "Indica fallas críticas (Discos, RAM)."
+            "Indica fallas."
         ]
     }
     st.table(pd.DataFrame(diccionario))
