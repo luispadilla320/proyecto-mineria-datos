@@ -1,0 +1,318 @@
+modelo,Cluster,Silhouette,tipo_hardware,marca,Antiguedad_Anios,capacidad,Total_Mantenimientos,Total_Reemplazos_Mayor,estado,Costo_Total_Mantenimiento
+string,C1 C2 C3,continuous,Firewall Router Servidor Storage Switch,Arista Check\ Point Cisco Dell EMC Fortinet HP Huawei Juniper Lenovo NetApp Palo\ Alto,continuous,continuous,continuous,0 1,Activo Inactivo,continuous
+meta,meta,meta,,,,,,,,
+DL380 Gen10,C1,0.523134,Servidor,HP,2,512,5,0,Activo,2615
+DL380 Gen10,C1,0.523559,Servidor,HP,2,512,5,0,Activo,2597
+PowerEdge R750,C1,0.578893,Servidor,Dell,2,1024,4,0,Activo,1850
+Nexus 9300,C2,0.570042,Switch,Cisco,2,48,8,1,Activo,2999
+Nexus 9300,C2,0.57455,Switch,Cisco,2,48,6,0,Activo,4032
+MX204,C3,0.560259,Router,Juniper,2,2,3,0,Activo,515
+PA-440,C3,0.517512,Firewall,Palo Alto,2,10,4,0,Activo,1729
+Unity 300,C2,0.585354,Storage,EMC,2,50,9,0,Activo,4307
+Unity 300,C3,0.525673,Storage,EMC,2,50,4,0,Activo,1504
+DL360 Gen10,C2,0.55113,Servidor,HP,2,256,9,1,Activo,3388
+DL360 Gen10,C1,0.512477,Servidor,HP,2,256,4,0,Activo,2233
+DL360 Gen10,C2,0.513357,Servidor,HP,2,256,6,0,Inactivo,2463
+7050SX,C2,0.584226,Switch,Arista,2,64,8,0,Activo,5045
+ASR 900,C3,0.518142,Router,Cisco,2,4,4,0,Activo,1738
+FG-600F,C3,0.54664,Firewall,Fortinet,2,18,3,0,Activo,1344
+PowerEdge R640,C1,0.522128,Servidor,Dell,2,384,4,0,Activo,1652
+PowerEdge R640,C1,0.51279,Servidor,Dell,2,384,3,0,Activo,1478
+Aruba 2930,C2,0.556689,Switch,HP,2,24,6,0,Activo,2993
+FAS2750,C2,0.510791,Storage,NetApp,1,75,5,0,Activo,2149
+ThinkSystem SR650,C1,0.571575,Servidor,Lenovo,1,768,6,0,Activo,1545
+ThinkSystem SR650,C1,0.575403,Servidor,Lenovo,1,768,3,0,Activo,1967
+EX4600,C3,0.565455,Switch,Juniper,1,32,2,0,Activo,1484
+AR6000,C2,0.513999,Router,Huawei,1,3,5,0,Activo,2150
+3200,C2,0.592254,Firewall,Check Point,1,8,7,0,Activo,4107
+PowerVault ME4,C3,0.514933,Storage,Dell,1,100,4,0,Activo,2035
+DL380 Gen10,C3,0.502413,Servidor,HP,-1,512,1,0,Activo,595
+Nexus 9300,C3,0.569929,Switch,Cisco,-1,48,3,0,Activo,1715
+MX204,C2,0.589006,Router,Juniper,-1,2,6,0,Activo,3380
+PA-440,C2,0.534929,Firewall,Palo Alto,-1,10,5,0,Activo,2546
+Unity 300,C2,0.590272,Storage,EMC,-1,50,7,0,Activo,3038
+PowerEdge R750,C1,0.603199,Servidor,Dell,-1,1024,3,0,Activo,1452
+Nexus 9300,C2,0.611701,Switch,Cisco,-1,48,9,0,Activo,4494
+ASR 900,C3,0.604717,Router,Cisco,-1,4,2,0,Activo,974
+FG-600F,C3,0.588974,Firewall,Fortinet,-1,18,1,0,Inactivo,64
+FAS2750,C2,0.544248,Storage,NetApp,-1,75,5,0,Activo,2832
+ThinkSystem SR650,C1,0.607385,Servidor,Lenovo,-1,768,4,0,Activo,2393
+ThinkSystem SR650,C1,0.607337,Servidor,Lenovo,-1,768,4,0,Activo,2272
+EX4600,C2,0.563588,Switch,Juniper,-1,32,5,0,Activo,3106
+AR6000,C3,0.531262,Router,Huawei,-1,3,4,0,Activo,1923
+3200,C2,0.598121,Firewall,Check Point,-1,8,6,0,Activo,3926
+PowerVault ME4,C2,0.603122,Storage,Dell,-1,100,9,0,Activo,4856
+DL360 Gen10,C1,0.51075,Servidor,HP,-1,256,5,0,Activo,1910
+7050SX,C2,0.525884,Switch,Arista,-1,64,4,0,Activo,2972
+ASR 900,C3,0.510928,Router,Cisco,-1,6,4,0,Activo,2305
+FG-1000F,C3,0.600073,Firewall,Fortinet,-1,25,2,0,Activo,1132
+PowerVault ME4,C2,0.593486,Storage,Dell,-1,75,7,0,Inactivo,4095
+PowerEdge R750,C1,0.606893,Servidor,Dell,-1,1024,3,0,Activo,1790
+Catalyst 9500,C2,0.490973,Switch,Cisco,-1,32,5,0,Activo,1813
+ASR 900,C3,0.599411,Router,Cisco,-1,6,3,0,Activo,637
+FG-1000F,C3,0.599093,Firewall,Fortinet,-1,25,2,0,Activo,1272
+PowerVault ME4,C3,0.555599,Storage,Dell,-1,75,3,0,Inactivo,1905
+ThinkSystem SR650,C1,0.604827,Servidor,Lenovo,-1,768,4,0,Activo,1900
+EX2300,C2,0.580484,Switch,Juniper,-1,48,6,0,Activo,2994
+AR6000,C2,0.510547,Router,Huawei,-1,2,5,0,Activo,2134
+PA-220,C2,0.574109,Firewall,Palo Alto,-1,5,6,0,Activo,2899
+AFF A250,C3,0.585529,Storage,NetApp,-1,200,1,0,Activo,661
+PowerEdge R650,C1,0.578098,Servidor,Dell,-1,768,4,1,Activo,2664
+PowerEdge R650,C1,0.595458,Servidor,Dell,-1,768,5,0,Activo,2035
+7280R,C3,0.590319,Switch,Arista,-1,128,2,0,Activo,849
+ISR 4431,C2,0.567653,Router,Cisco,-1,1,5,0,Activo,3302
+PA-820,C2,0.598445,Firewall,Palo Alto,-1,12,9,0,Inactivo,3842
+PowerStore 500T,C3,0.571049,Storage,EMC,-1,300,2,0,Activo,997
+ThinkSystem SR590,C1,0.559458,Servidor,Lenovo,-1,512,3,0,Activo,1888
+ThinkSystem SR590,C1,0.562707,Servidor,Lenovo,-1,512,5,0,Activo,2391
+Aruba 5400R,C3,0.591575,Switch,HP,-1,48,2,0,Activo,1078
+NE40E-M2C,C2,0.575287,Router,Huawei,-1,8,5,0,Activo,3590
+1500,C2,0.501266,Firewall,Check Point,-1,6,5,0,Activo,1922
+PowerVault ME5,C3,0.590978,Storage,Dell,-2,150,3,0,Activo,684
+ProLiant ML350,C2,0.529716,Servidor,HP,-2,384,7,1,Activo,2766
+ProLiant ML350,C1,0.510328,Servidor,HP,-2,384,3,0,Inactivo,2084
+Nexus 7700,C3,0.602005,Switch,Cisco,-2,144,1,0,Activo,519
+ASR 1000,C3,0.603813,Router,Cisco,-2,10,3,0,Activo,943
+FG-60F,C2,0.610698,Firewall,Fortinet,-2,8,7,0,Activo,4180
+Unity XT 480F,C3,0.537841,Storage,EMC,-2,400,4,0,Activo,1567
+PowerEdge R740xd,C1,0.5875,Servidor,Dell,-2,1536,2,1,Activo,761
+PowerEdge R740xd,C1,0.615752,Servidor,Dell,-2,1536,5,0,Activo,1789
+EX4300,C2,0.518476,Switch,Juniper,-2,48,5,1,Activo,2228
+AR3200,C2,0.502918,Router,Huawei,-2,2,5,1,Activo,1989
+PA-5220,C3,0.607144,Firewall,Palo Alto,-2,30,2,0,Activo,800
+FAS9000,C3,0.547224,Storage,NetApp,-2,500,2,0,Inactivo,333
+ThinkSystem SR850,C1,0.616121,Servidor,Lenovo,-2,1024,3,0,Activo,1580
+ThinkSystem SR850,C1,0.589216,Servidor,Lenovo,-2,1024,5,0,Activo,3450
+Nexus 9348,C3,0.611655,Switch,Cisco,-2,48,2,0,Activo,857
+MX960,C2,0.550038,Router,Juniper,-2,12,6,1,Activo,2411
+FG-1800F,C2,0.568292,Firewall,Fortinet,-2,35,5,0,Activo,3313
+PowerStore 1000T,C3,0.584856,Storage,Dell,-2,250,1,0,Activo,483
+DL385 Gen10,C1,0.553292,Servidor,HP,-2,768,2,0,Activo,743
+DL385 Gen10,C1,0.574191,Servidor,HP,-2,768,2,0,Activo,1772
+7060CX,C2,0.550496,Switch,Arista,-2,32,5,0,Activo,2872
+ASR 9900,C3,0.552802,Router,Cisco,-2,20,4,0,Activo,1735
+5400,C2,0.506873,Firewall,Check Point,-2,22,5,0,Activo,2064
+Unity XT 680F,C3,0.534872,Storage,EMC,-2,600,1,0,Activo,907
+PowerEdge T440,C3,0.558546,Servidor,Dell,-2,192,2,0,Activo,776
+PowerEdge T440,C3,0.553478,Servidor,Dell,-2,192,2,0,Inactivo,564
+Aruba 3810M,C2,0.551656,Switch,HP,-2,48,5,0,Activo,2832
+AR1200,C3,0.519775,Router,Huawei,-2,1,5,0,Activo,1668
+FG-200F,C3,0.542796,Firewall,Fortinet,-2,10,4,0,Activo,1894
+FAS2650,C3,0.558769,Storage,NetApp,-2,120,4,0,Activo,1622
+ThinkSystem SR630,C1,0.545033,Servidor,Lenovo,-2,512,5,0,Activo,2986
+ThinkSystem SR630,C1,0.518754,Servidor,Lenovo,-2,512,5,0,Activo,3564
+EX9200,C3,0.599375,Switch,Juniper,-2,96,1,0,Activo,66
+AR6000,C2,0.611559,Router,Huawei,-2,3,7,0,Activo,4142
+3200,C3,0.604466,Firewall,Check Point,-2,8,2,0,Activo,1259
+PowerVault ME4,C2,0.534709,Storage,Dell,-2,100,5,0,Activo,2620
+DL380 Gen10,C1,0.520464,Servidor,HP,-2,512,3,0,Activo,854
+Nexus 9300,C3,0.587501,Switch,Cisco,-2,48,3,0,Activo,1520
+MX204,C3,0.608791,Router,Juniper,-2,2,2,0,Activo,623
+PA-440,C2,0.582854,Firewall,Palo Alto,-2,10,6,0,Activo,3082
+Unity 300,C2,0.611014,Storage,EMC,-2,50,7,0,Activo,4529
+PowerEdge R750,C1,0.519349,Servidor,Dell,-2,1024,8,1,Activo,3794
+Nexus 9300,C3,0.611344,Switch,Cisco,-2,48,2,0,Activo,1017
+ASR 900,C2,0.598335,Router,Cisco,-2,4,6,0,Activo,3645
+FG-600F,C3,0.609743,Firewall,Fortinet,-2,18,2,0,Activo,1096
+FAS2750,C3,0.542969,Storage,NetApp,-2,75,4,0,Inactivo,1827
+ThinkSystem SR650,C1,0.604851,Servidor,Lenovo,-2,768,4,0,Activo,1516
+ThinkSystem SR650,C1,0.594341,Servidor,Lenovo,-2,768,3,0,Activo,1354
+EX4600,C3,0.530492,Switch,Juniper,-2,32,4,0,Activo,2005
+AR6000,C3,0.586831,Router,Huawei,-2,3,0,0,Activo,2300
+3200,C3,0.604921,Firewall,Check Point,-2,8,1,0,Activo,303
+PowerVault ME4,C3,0.556096,Storage,Dell,-2,100,3,1,Activo,1894
+DL360 Gen10,C2,0.578833,Servidor,HP,-2,256,7,0,Activo,3922
+7050SX,C3,0.510494,Switch,Arista,-2,64,4,0,Activo,2371
+ASR 900,C3,0.610482,Router,Cisco,-2,6,1,0,Activo,469
+FG-1000F,C2,0.575976,Firewall,Fortinet,-2,25,7,0,Activo,2492
+PowerVault ME4,C3,0.538881,Storage,Dell,-2,75,4,0,Activo,1987
+PowerEdge R750,C1,0.594982,Servidor,Dell,-2,1024,2,0,Activo,1253
+Catalyst 9500,C2,0.566792,Switch,Cisco,-2,32,5,0,Activo,3187
+ASR 900,C2,0.503221,Router,Cisco,-2,6,4,0,Activo,2655
+FG-1000F,C3,0.594499,Firewall,Fortinet,-2,25,1,0,Inactivo,100
+PowerVault ME4,C3,0.600977,Storage,Dell,-2,75,1,0,Activo,911
+ThinkSystem SR650,C1,0.556568,Servidor,Lenovo,-2,768,6,0,Activo,3242
+EX2300,C2,0.567841,Switch,Juniper,-2,48,6,0,Activo,2607
+AR6000,C3,0.522585,Router,Huawei,-2,2,5,0,Activo,1621
+PA-220,C3,0.554044,Firewall,Palo Alto,-2,5,4,0,Activo,1635
+AFF A250,C3,0.593341,Storage,NetApp,-2,200,2,0,Activo,888
+PowerEdge R650,C1,0.57537,Servidor,Dell,-2,768,3,0,Activo,1005
+PowerEdge R650,C1,0.562368,Servidor,Dell,-2,768,2,0,Activo,962
+7280R,C3,0.575929,Switch,Arista,-2,128,3,0,Activo,1729
+ISR 4431,C2,0.606662,Router,Cisco,-2,1,7,0,Activo,3498
+PA-820,C3,0.597853,Firewall,Palo Alto,-3,12,2,0,Activo,1688
+PowerStore 500T,C2,0.595872,Storage,EMC,-3,300,7,0,Activo,3643
+ThinkSystem SR590,C1,0.564069,Servidor,Lenovo,-3,512,5,0,Activo,2513
+ThinkSystem SR590,C3,0.504504,Servidor,Lenovo,-3,512,1,0,Inactivo,539
+Aruba 5400R,C2,0.597587,Switch,HP,-3,48,7,0,Activo,3145
+NE40E-M2C,C3,0.523229,Router,Huawei,-3,8,4,0,Activo,2250
+1500,C2,0.609665,Firewall,Check Point,-3,6,8,0,Activo,3562
+PowerVault ME5,C2,0.575555,Storage,Dell,-3,150,7,0,Activo,2542
+ProLiant ML350,C1,0.521016,Servidor,HP,-3,384,3,0,Activo,2354
+ProLiant ML350,C1,0.518759,Servidor,HP,-3,384,3,0,Activo,2226
+Nexus 7700,C2,0.516473,Switch,Cisco,-3,144,5,0,Activo,2331
+ASR 1000,C3,0.523273,Router,Cisco,-3,10,4,0,Activo,2289
+FG-60F,C3,0.610982,Firewall,Fortinet,-3,8,2,0,Activo,1301
+Unity XT 480F,C2,0.500446,Storage,EMC,-3,400,5,0,Activo,2136
+PowerEdge R740xd,C1,0.614058,Servidor,Dell,-3,1536,3,0,Activo,2237
+PowerEdge R740xd,C1,0.585013,Servidor,Dell,-3,1536,2,0,Inactivo,771
+EX4300,C3,0.607738,Switch,Juniper,-3,48,2,0,Activo,224
+AR3200,C3,0.605132,Router,Huawei,-3,2,3,0,Activo,895
+PA-5220,C2,0.592617,Firewall,Palo Alto,-3,30,8,0,Activo,2758
+FAS9000,C3,0.513955,Storage,NetApp,-3,500,4,0,Activo,1965
+ThinkSystem SR850,C1,0.613532,Servidor,Lenovo,-3,1024,3,0,Activo,1421
+ThinkSystem SR850,C1,0.615985,Servidor,Lenovo,-3,1024,3,0,Activo,1594
+Nexus 9348,C3,0.614364,Switch,Cisco,-3,48,2,0,Activo,638
+MX960,C2,0.494237,Router,Juniper,-3,12,4,0,Activo,2525
+FG-1800F,C3,0.545809,Firewall,Fortinet,-3,35,3,1,Activo,2187
+PowerStore 1000T,C2,0.599729,Storage,Dell,-3,250,9,0,Activo,4082
+DL385 Gen10,C1,0.578483,Servidor,HP,-3,768,3,0,Activo,1379
+DL385 Gen10,C1,0.528307,Servidor,HP,-3,768,1,0,Activo,361
+7060CX,C3,0.520883,Switch,Arista,-3,32,4,0,Activo,2294
+ASR 9900,C3,0.6075,Router,Cisco,-3,20,2,0,Activo,1487
+5400,C2,0.587144,Firewall,Check Point,-3,22,6,0,Activo,3221
+Unity XT 680F,C2,0.514073,Storage,EMC,-3,600,6,0,Activo,2542
+PowerEdge T440,C2,0.585902,Servidor,Dell,-3,192,7,0,Activo,4346
+PowerEdge T440,C3,0.557571,Servidor,Dell,-3,192,2,0,Inactivo,376
+Aruba 3810M,C3,0.602577,Switch,HP,-3,48,1,0,Activo,324
+AR1200,C2,0.60677,Router,Huawei,-3,1,7,0,Activo,3693
+FG-200F,C3,0.570268,Firewall,Fortinet,-3,10,3,0,Activo,2002
+FAS2650,C3,0.580674,Storage,NetApp,-3,120,3,0,Activo,1798
+ThinkSystem SR630,C1,0.544852,Servidor,Lenovo,-3,512,4,0,Activo,910
+ThinkSystem SR630,C1,0.539061,Servidor,Lenovo,-3,512,2,0,Activo,1671
+EX9200,C3,0.602454,Switch,Juniper,-3,96,3,0,Activo,981
+AR6000,C3,0.598759,Router,Huawei,-3,3,2,0,Activo,1664
+3200,C3,0.611239,Firewall,Check Point,-3,8,2,0,Activo,860
+PowerVault ME4,C3,0.60327,Storage,Dell,-3,100,2,0,Activo,468
+DL380 Gen10,C3,0.506732,Servidor,HP,-3,512,2,0,Activo,167
+Nexus 9300,C3,0.515464,Switch,Cisco,-3,48,4,0,Activo,2380
+MX204,C2,0.522008,Router,Juniper,-3,2,5,0,Activo,2377
+PA-440,C3,0.572651,Firewall,Palo Alto,-3,10,4,0,Activo,1326
+Unity 300,C3,0.552789,Storage,EMC,-3,50,4,0,Activo,1782
+PowerEdge R750,C1,0.556968,Servidor,Dell,-3,1024,7,0,Activo,3255
+Nexus 9300,C3,0.614825,Switch,Cisco,-3,48,2,0,Activo,855
+ASR 900,C3,0.581962,Router,Cisco,-3,4,3,0,Activo,1780
+FG-600F,C2,0.595246,Firewall,Fortinet,-3,18,6,0,Activo,3701
+FAS2750,C3,0.54338,Storage,NetApp,-3,75,4,0,Inactivo,1900
+ThinkSystem SR650,C1,0.576243,Servidor,Lenovo,-3,768,2,0,Activo,1226
+ThinkSystem SR650,C1,0.611136,Servidor,Lenovo,-3,768,5,0,Activo,2081
+EX4600,C3,0.610304,Switch,Juniper,-3,32,2,0,Activo,452
+AR6000,C3,0.578244,Router,Huawei,-3,3,4,0,Activo,1172
+3200,C2,0.562686,Firewall,Check Point,-3,8,5,0,Activo,3132
+PowerVault ME4,C3,0.60394,Storage,Dell,-3,100,2,0,Activo,678
+DL360 Gen10,C2,0.514525,Servidor,HP,-3,256,5,0,Activo,2636
+7050SX,C2,0.587528,Switch,Arista,-3,64,6,0,Activo,3347
+ASR 900,C2,0.611622,Router,Cisco,-3,6,7,0,Activo,4132
+FG-1000F,C2,0.599168,Firewall,Fortinet,-3,25,7,0,Activo,3297
+PowerVault ME4,C3,0.590152,Storage,Dell,-3,75,2,0,Inactivo,1197
+PowerEdge R750,C1,0.597843,Servidor,Dell,-3,1024,2,0,Activo,1511
+Catalyst 9500,C2,0.606835,Switch,Cisco,-3,32,7,0,Activo,3569
+ASR 900,C2,0.610017,Router,Cisco,-3,6,9,0,Activo,3520
+FG-1000F,C2,0.516823,Firewall,Fortinet,-3,25,5,0,Activo,2368
+PowerVault ME4,C2,0.491667,Storage,Dell,-3,75,5,0,Inactivo,2076
+ThinkSystem SR650,C1,0.611233,Servidor,Lenovo,-3,768,4,0,Activo,2297
+EX2300,C2,0.61165,Switch,Juniper,-3,48,7,0,Activo,4031
+AR6000,C2,0.521766,Router,Huawei,-4,2,5,0,Activo,2495
+PA-220,C2,0.501892,Firewall,Palo Alto,-4,5,5,0,Activo,2197
+AFF A250,C2,0.502893,Storage,NetApp,-4,200,4,0,Activo,2848
+PowerEdge R650,C1,0.556487,Servidor,Dell,-4,768,2,0,Activo,1061
+PowerEdge R650,C1,0.560538,Servidor,Dell,-4,768,6,0,Activo,2723
+7280R,C3,0.596231,Switch,Arista,-4,128,3,0,Activo,430
+ISR 4431,C2,0.604325,Router,Cisco,-4,1,8,0,Activo,3544
+PA-820,C3,0.585816,Firewall,Palo Alto,-4,12,3,0,Activo,1563
+PowerStore 500T,C3,0.570774,Storage,EMC,-4,300,3,0,Activo,1528
+ThinkSystem SR590,C1,0.542848,Servidor,Lenovo,-4,512,5,1,Activo,2581
+ThinkSystem SR590,C1,0.532472,Servidor,Lenovo,-4,512,6,0,Inactivo,2381
+Aruba 5400R,C3,0.524791,Switch,HP,-4,48,4,0,Activo,2223
+NE40E-M2C,C3,0.609671,Router,Huawei,-4,8,2,0,Activo,497
+1500,C2,0.556356,Firewall,Check Point,-4,6,5,0,Activo,3154
+PowerVault ME5,C2,0.563115,Storage,Dell,-4,150,7,0,Activo,2390
+ProLiant ML350,C2,0.568669,Servidor,HP,-4,384,8,0,Activo,4210
+ProLiant ML350,C2,0.555006,Servidor,HP,-4,384,6,0,Activo,4468
+Nexus 7700,C2,0.557357,Switch,Cisco,-4,144,5,0,Activo,3205
+ASR 1000,C3,0.61305,Router,Cisco,-4,10,2,0,Activo,1098
+FG-60F,C3,0.606819,Firewall,Fortinet,-4,8,3,0,Activo,762
+Unity XT 480F,C3,0.565453,Storage,EMC,-4,400,2,0,Activo,1191
+PowerEdge R740xd,C1,0.597636,Servidor,Dell,-4,1536,6,0,Activo,2767
+PowerEdge R740xd,C1,0.601401,Servidor,Dell,-4,1536,2,0,Activo,1666
+EX4300,C3,0.540511,Switch,Juniper,-4,48,4,0,Activo,1947
+AR3200,C3,0.568976,Router,Huawei,-4,2,3,0,Activo,1965
+PA-5220,C3,0.596793,Firewall,Palo Alto,-4,30,3,0,Activo,1206
+FAS9000,C2,0.543501,Storage,NetApp,-4,500,7,0,Activo,2573
+ThinkSystem SR850,C1,0.604482,Servidor,Lenovo,-4,1024,3,0,Activo,1349
+ThinkSystem SR850,C1,0.605261,Servidor,Lenovo,-4,1024,5,0,Activo,2789
+Nexus 9348,C2,0.504562,Switch,Cisco,-4,48,5,1,Activo,2159
+MX960,C3,0.608698,Router,Juniper,-4,12,2,0,Activo,1032
+FG-1800F,C3,0.509834,Firewall,Fortinet,-4,35,4,1,Activo,2425
+PowerStore 1000T,C3,0.567497,Storage,Dell,-4,250,2,1,Activo,1090
+DL385 Gen10,C1,0.562021,Servidor,HP,-4,768,4,1,Activo,1190
+DL385 Gen10,C1,0.558534,Servidor,HP,-4,768,4,1,Inactivo,1780
+7060CX,C3,0.605346,Switch,Arista,-4,32,1,0,Activo,475
+ASR 9900,C2,0.50814,Router,Cisco,-4,20,5,0,Activo,2314
+5400,C3,0.607785,Firewall,Check Point,-4,22,2,0,Activo,899
+Unity XT 680F,C2,0.568443,Storage,EMC,-4,600,8,0,Activo,4737
+PowerEdge T440,C3,0.563319,Servidor,Dell,-4,192,2,0,Activo,630
+PowerEdge T440,C3,0.561453,Servidor,Dell,-4,192,2,0,Activo,868
+Aruba 3810M,C3,0.601965,Switch,HP,-4,48,2,0,Activo,1003
+AR1200,C2,0.582951,Router,Huawei,-4,1,6,1,Activo,3937
+FG-200F,C3,0.597799,Firewall,Fortinet,-4,10,3,0,Activo,1239
+FAS2650,C3,0.560332,Storage,NetApp,-4,120,4,0,Activo,1683
+ThinkSystem SR630,C1,0.563908,Servidor,Lenovo,-4,512,5,0,Activo,1731
+ThinkSystem SR630,C1,0.530428,Servidor,Lenovo,-4,512,3,0,Activo,995
+EX9200,C2,0.517153,Switch,Juniper,-4,96,5,0,Activo,2376
+AR6000,C2,0.554365,Router,Huawei,-4,3,5,0,Activo,3143
+3200,C2,0.527574,Firewall,Check Point,-4,8,5,0,Activo,2554
+PowerVault ME4,C2,0.539163,Storage,Dell,-4,100,5,0,Activo,2861
+DL380 Gen10,C1,0.506803,Servidor,HP,-4,512,2,0,Activo,1158
+Nexus 9300,C3,0.529456,Switch,Cisco,-4,48,4,0,Activo,2220
+MX204,C3,0.556374,Router,Juniper,-4,2,3,0,Activo,2180
+PA-440,C3,0.605041,Firewall,Palo Alto,-4,10,3,0,Activo,753
+Unity 300,C3,0.606509,Storage,EMC,-4,50,2,0,Activo,965
+PowerEdge R750,C1,0.607724,Servidor,Dell,-4,1024,4,0,Activo,1653
+Nexus 9300,C3,0.538026,Switch,Cisco,-4,48,4,0,Activo,2080
+ASR 900,C3,0.55904,Router,Cisco,-4,4,4,0,Activo,1705
+FG-600F,C3,0.578962,Firewall,Fortinet,-4,18,4,0,Activo,1186
+FAS2750,C3,0.601419,Storage,NetApp,-4,75,2,0,Activo,1532
+ThinkSystem SR650,C1,0.523994,Servidor,Lenovo,-4,768,7,0,Activo,3513
+ThinkSystem SR650,C1,0.5452,Servidor,Lenovo,-4,768,6,0,Activo,3470
+EX4600,C2,0.610471,Switch,Juniper,-4,32,9,0,Activo,4518
+AR6000,C3,0.609393,Router,Huawei,-4,3,2,0,Activo,404
+3200,C3,0.554063,Firewall,Check Point,-4,8,0,0,Activo,3258
+PowerVault ME4,C3,0.576444,Storage,Dell,-4,100,3,0,Activo,1869
+DL360 Gen10,C3,0.503762,Servidor,HP,-4,256,4,0,Activo,2095
+7050SX,C3,0.573363,Switch,Arista,-4,64,4,0,Activo,1286
+ASR 900,C2,0.522978,Router,Cisco,-4,6,4,0,Activo,3134
+FG-1000F,C2,0.519097,Firewall,Fortinet,-4,25,5,1,Activo,2518
+PowerVault ME4,C2,0.574967,Storage,Dell,-4,75,6,0,Activo,3153
+PowerEdge R750,C1,0.599424,Servidor,Dell,-5,1024,5,0,Activo,1939
+Catalyst 9500,C3,0.579777,Switch,Cisco,-5,32,3,0,Activo,1597
+ASR 900,C3,0.572648,Router,Cisco,-5,6,4,0,Activo,1208
+FG-1000F,C3,0.539505,Firewall,Fortinet,-5,25,5,0,Inactivo,1327
+PowerVault ME4,C3,0.587594,Storage,Dell,-5,75,2,0,Activo,1745
+ThinkSystem SR650,C1,0.585326,Servidor,Lenovo,-5,768,5,0,Activo,1683
+EX2300,C2,0.594487,Switch,Juniper,-5,48,7,0,Activo,3901
+AR6000,C2,0.572779,Router,Huawei,-5,2,7,0,Activo,2897
+PA-220,C2,0.541705,Firewall,Palo Alto,-5,5,5,0,Activo,3094
+AFF A250,C3,0.577121,Storage,NetApp,-5,200,3,0,Activo,1627
+PowerEdge R650,C1,0.553995,Servidor,Dell,-5,768,2,0,Activo,1454
+PowerEdge R650,C1,0.548126,Servidor,Dell,-5,768,2,0,Activo,1120
+7280R,C3,0.592359,Switch,Arista,-5,128,2,0,Activo,1014
+ISR 4431,C3,0.536161,Router,Cisco,-5,1,3,0,Activo,2609
+PA-820,C3,0.529629,Firewall,Palo Alto,-5,12,5,0,Activo,1604
+PowerStore 500T,C2,0.491729,Storage,EMC,-5,300,4,0,Activo,2666
+ThinkSystem SR590,C1,0.556591,Servidor,Lenovo,-5,512,4,0,Activo,2592
+ThinkSystem SR590,C1,0.528861,Servidor,Lenovo,-5,512,3,0,Activo,1303
+Aruba 5400R,C2,0.531101,Switch,HP,-5,48,5,0,Activo,2791
+NE40E-M2C,C3,0.601262,Router,Huawei,-5,8,1,0,Activo,794
+1500,C3,0.600231,Firewall,Check Point,-5,6,2,0,Activo,1140
+PowerVault ME5,C2,0.590405,Storage,Dell,-5,150,9,0,Activo,5495
+ProLiant ML350,C1,0.498331,Servidor,HP,-5,384,3,0,Activo,1823
+ProLiant ML350,C3,0.524098,Servidor,HP,-5,384,2,0,Inactivo,846
+Nexus 7700,C2,0.536143,Switch,Cisco,-5,144,5,1,Activo,2994
+ASR 1000,C3,0.520957,Router,Cisco,-5,10,4,0,Activo,2382
+FG-60F,C3,0.603372,Firewall,Fortinet,-5,8,2,0,Activo,867
+Unity XT 480F,C3,0.56373,Storage,EMC,-5,400,2,0,Activo,785
+PowerEdge R740xd,C1,0.6036,Servidor,Dell,-5,1536,5,0,Activo,2541
+PowerEdge R740xd,C1,0.576973,Servidor,Dell,-5,1536,6,0,Activo,3622
+EX4300,C2,0.579555,Switch,Juniper,-5,48,6,0,Activo,3615
+AR3200,C2,0.521733,Router,Huawei,-5,2,6,0,Activo,2086
