@@ -145,7 +145,7 @@ with tab2:
 
     diccionario = {
         "Campo": ["hardware_id", "tipo, marca, modelo", "estado", "Antiguedad_Anios", "Total_Mantenimientos", "Costo_Total_Mantenimiento", "Total_Reemplazos_Mayor"],
-        "Origen": ["Base de Datos", "Base de Datos", "Target (Objetivo)", "Calculado (SQL)", "Agregado (Count)", "Agregado (Sum)", "Agregado (Lógica)"],
+        "Origen": ["Base de datos", "Base de datos", "Objetivo", "Calculado (SQL)", "Agregado (Count)", "Agregado (Sum)", "Agregado"],
         "Tipo": [
             "Identificador único.",
             "Variables categóricas para segmentar.",
