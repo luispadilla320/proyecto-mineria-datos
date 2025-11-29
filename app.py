@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# 1. Configuración de la página
+# Config
 st.set_page_config(
     page_title="Producto integrador",
     page_icon="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Escudo_UdeG.svg/1000px-Escudo_UdeG.svg.png",
@@ -183,7 +183,7 @@ with tab2:
         st.warning("No encuentro el archivo 'vista_minable.csv'.")
         st.info("Sube tu archivo CSV con ese nombre a la carpeta del proyecto.")
 with tab3:
-    st.header("Análisis de resultados de pedicción")
+    st.header("Análisis de resultados de predicción")
     
     try:
         # Carga del archivo
@@ -313,7 +313,6 @@ with tab4:
 
     st.header("Segmentación de equipos con agrupamientos de clustering")
     
-    # 1. INTRODUCCIÓN Y TEORÍA
     st.markdown("""
     **Objetivo:** Agrupar los dispositivos en categorías automáticas basadas en sus similitudes 
     (costo, antigüedad, capacidad) para descubrir patrones ocultos.
@@ -324,17 +323,14 @@ with tab4:
     """)
 
     try:
-        # 2. CARGAR DATOS
         df_cluster = pd.read_csv("clusters.csv", skiprows=[1, 2])
         
-        # 3. KPIS DE CALIDAD
         if 'Silhouette' in df_cluster.columns:
             promedio_sil = df_cluster['Silhouette'].mean()
             
             col_kpi1, col_kpi2, col_kpi3 = st.columns(3)
             col_kpi1.metric("Total de Equipos", len(df_cluster))
             col_kpi2.metric("Clusters Identificados", df_cluster['Cluster'].nunique())
-            
             
             st.markdown("Prueba de separación de grupos para el clustering:")
             col_kpi3.metric("Calidad (Silhouette)", f"{promedio_sil:.3f}")
@@ -407,6 +403,7 @@ with tab4:
         st.error("No encuentro el archivo 'clusters.csv'. Recuerda exportarlo desde Orange.")
     except Exception as e:
         st.error(f"Error cargando datos: {e}")
+
 
 
 
