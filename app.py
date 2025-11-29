@@ -172,7 +172,7 @@ with tab2:
         
         csv_export = df_final_vista.to_csv(index=False).encode('utf-8')
         st.download_button(
-            label="⬇️ Descargar Archivo (.csv)",
+            label="Descargar Archivo (.csv)",
             data=csv_export,
             file_name="vista_minable.csv",
             mime="text/csv"
@@ -180,10 +180,10 @@ with tab2:
         st.success(f"Archivo cargado: {len(df_final_vista)} registros.")
 
     except FileNotFoundError:
-        st.warning("⚠️ No encuentro el archivo 'vista_minable.csv'.")
+        st.warning("No encuentro el archivo 'vista_minable.csv'.")
         st.info("Sube tu archivo CSV con ese nombre a la carpeta del proyecto.")
 with tab3:
-    st.header("Análisis de Resultados (Predicción)")
+    st.header("Análisis de resultados de pedicción")
     
     try:
         # Carga del archivo
@@ -407,5 +407,6 @@ with tab4:
         st.error("No encuentro el archivo 'clusters.csv'. Recuerda exportarlo desde Orange.")
     except Exception as e:
         st.error(f"Error cargando datos: {e}")
+
 
 
