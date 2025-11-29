@@ -105,8 +105,7 @@ with tab2:
     st.header("Almacén de datos y generacion de la vista minable")
     
     st.markdown("""
-    Contexto:
-    Transformación de datos del SQL en una vista minable única para alimentar el modelo de Orange.
+    Transformación de datos del SQL para poder generar una vista minable para alimentar el orange.
     """)
 
     st.subheader("Transformación ETL con SQL")
