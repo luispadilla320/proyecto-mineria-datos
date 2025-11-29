@@ -198,7 +198,7 @@ with tab3:
         
         st.divider()
 
-        st.subheader("Selección de modelo con su respectiva evaluación")
+        st.subheader("Selección de modelo")
         
         #with st.expander("Explicación de la matriz"):
         st.markdown("""
