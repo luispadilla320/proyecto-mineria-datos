@@ -179,8 +179,7 @@ with tab2:
         st.success(f"Archivo cargado: {len(df_final_vista)} registros.")
 
     except FileNotFoundError:
-        st.warning("No encuentro el archivo 'vista_minable.csv'.")
-        st.info("Sube tu archivo CSV con ese nombre a la carpeta del proyecto.")
+        st.warning("No se encuentra el archivo 'vista_minable.csv'.")
 with tab3:
     st.header("Análisis de resultados de predicción")
     
@@ -303,7 +302,7 @@ with tab3:
             )
             
         else:
-            st.warning(f"No encontré la columna de probabilidades '{col_prob_inactivo}'.")
+            st.warning(f"No se encuentra la columna de probabilidades '{col_prob_inactivo}'.")
             st.dataframe(df_view)
 
     except Exception as e:
@@ -395,13 +394,13 @@ with tab3:
                
                 st.plotly_chart(fig, use_container_width=True)
             else:
-                st.warning("No se encontraron las columnas necesarias para graficar.")
+                st.warning("No se encontraron las columnas.")
 
         st.divider()
         
 
     except FileNotFoundError:
-        st.error("No encuentro el archivo 'clusters.csv'. Recuerda exportarlo desde Orange.")
+        st.error("No se encuentra el archivo 'clusters.csv'.")
     except Exception as e:
         st.error(f"Error cargando datos: {e}")
 
